@@ -65,7 +65,3 @@ header {
     font-weight:400;
     text-align:center;
 }
-
-.homepage-intro {
-    clip-path: polygon(0 0, 100% 0, 100% 98%, 0 100%);
-}
