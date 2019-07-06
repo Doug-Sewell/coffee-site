@@ -14,8 +14,10 @@ html, body {
 
 header {
     position:relative;
-    height:80vh;
+    height:90vh;
+    width:100%;
 }
+
 .background {
     height:100%;
     width:100%;
@@ -26,10 +28,10 @@ header {
 }
 
 .headline-cover {
+    position:absolute;
     top:0;
     height:100%;
     width:100%;
-    position:absolute;
 }
 
 .headline-cover-relative {    
@@ -65,5 +67,5 @@ header {
 }
 
 .homepage-intro {
-    clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 98%, 0 100%);
 }
