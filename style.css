@@ -149,11 +149,13 @@ header {
     align-items:center;
     margin-top:3rem;
     padding:4rem;
+    height:100vh;
     min-height:70vh;
+    max-height:100vh;
 }
 
 .image-container {
-    height:500px;
+    height:80%;
     width:40%;
     background:url('./assets/customer-drinking-coffee.jpg');
     background-size:cover;
