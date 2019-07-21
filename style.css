@@ -22,7 +22,7 @@ header {
     max-width:100%;
 }
 
-.background {
+.header__background {
     height:100%;
     width:100%;
     background-image:linear-gradient(to bottom, rgba(245, 223, 205,.7),rgba(245, 223, 205,.75),rgba(245, 223, 205,1)),url(./assets/header-image.jpg);
@@ -31,14 +31,14 @@ header {
     filter:blur(.4rem);
 }
 
-.headline-cover {
+.header__headline {
     position:absolute;
     top:0;
     height:100%;
     width:100%;
 }
 
-.headline-cover-relative {    
+.header__headline--container {    
     position:relative;
     height:100%;
     width:100%;
@@ -47,7 +47,7 @@ header {
     justify-content: center;
 }
 
-.header {
+.header__headline--text {
     color:rgb(70, 70, 70);
     background-color:rgba(255, 255, 255, 0.65);
     padding:2rem;
@@ -55,7 +55,7 @@ header {
     max-width:80%;
 }
 
-.header-main {
+.header__headline--main {
     display:block;
     letter-spacing: 1rem;
     font-size:6.4rem;
@@ -63,7 +63,7 @@ header {
     text-align:center;
     font-weight:400;
 }
-.header-sub {
+.header__headline--sub {
     display:block;
     letter-spacing: .75rem;
     font-weight:400;
@@ -73,7 +73,7 @@ header {
 
 
 
-.arrow-container {
+.downward-arrows {
     position:absolute;
     bottom:0;
     width:100%;
@@ -83,13 +83,6 @@ header {
     align-items:center;
     justify-content:flex-start;
     flex-direction:column;
-}
-
-
-#header-instruction {
-    color: #000;
-    font-weight:bold;
-    font-size:2.4rem;
 }
 
 .btn:link,
@@ -103,6 +96,9 @@ header {
     transition:all .2s;
     box-shadow:0 .3rem .7rem rgba(0,0,0,.2);
     position:relative;
+    color: #000;
+    font-weight:bold;
+    font-size:2.4rem;
 }
 
 .btn:hover{
@@ -116,7 +112,7 @@ header {
 }
 
 
-.arrows {
+.downward-arrows__container {
     display:flex;
     flex-direction:column;
     justify-content:space-around;
@@ -145,7 +141,7 @@ header {
     animation-delay: 1.5s;
 }
 
-.about {
+.main__about {
     display:flex;
     justify-content: space-around;
     align-content:space-around;
@@ -157,7 +153,7 @@ header {
     max-height:100vh;
 }
 
-.image-container {
+.main__image {
     height:80%;
     width:40%;
     background:url('./assets/customer-drinking-coffee.jpg');
@@ -169,7 +165,7 @@ header {
 
 
 
-.about-frost {
+.main__frost {
     min-width:33.33%;
     min-height:33.33%;
     max-width:50%;
@@ -183,11 +179,11 @@ header {
     align-items: center;
 }
 
-.about-header {
+.main__text--header {
     font-size:3.2rem;
 }
 
-.about-text {
+.main__text--flex {
     font-size:2rem;
 }
 
@@ -237,30 +233,30 @@ header {
         font-size:8px;
     }
 
-    .about {
+    .main__about {
         height:100vh;
         flex-direction:column;
     }
 
-    .image-container{
+    .main__image{
         width:100%;
         max-height:400px;
     }
 
-    .about-frost {
+    .main__frost {
         width:100%;
         max-width:100%;
     }
 
-    .about-header {
+    .main__text--header {
         font-size:3.2rem;
     }
     
-    .about-text {
+    .main__text {
         font-size:2.5rem;
     }
 
-    .arrow-container {
+    .downward-arrows {
         height:30%;
     }
 
